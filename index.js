@@ -10,7 +10,7 @@ const cors=require('cors')
 const port=8000
 app.use(express.json())
 const coursOption={
-origin:"https://new-one-2.onrender.com",
+origin:"http://localhost:5173",
 method:"GET,POST,PUT,DELETE,PATCH,HEAD   ",
 credentials:true,
 }
