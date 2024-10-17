@@ -11,8 +11,6 @@ const port=8000
 app.use(express.json())
 const coursOption={
 origin:"*"
-method:"GET,POST,PUT,DELETE,PATCH,HEAD   ",
-credentials:true,
 }
 
 const reg=require('./Skima/Peraon')
