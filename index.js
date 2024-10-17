@@ -10,7 +10,7 @@ const cors=require('cors')
 const port=8000
 app.use(express.json())
 const coursOption={
-origin:"http://localhost:5173"
+origin:"*"
 method:"GET,POST,PUT,DELETE,PATCH,HEAD   ",
 credentials:true,
 }
